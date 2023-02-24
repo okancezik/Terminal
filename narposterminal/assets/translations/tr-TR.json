@@ -1,0 +1,19 @@
+{
+    "password":"Şifre", 
+    "enterbutton":"Giriş",
+    "departmant":"Departmanlar",
+    "searchtable":"Masa Ara..",
+    "closebutton":"KAPAT",
+    "searchproduct":"Ürün Ara..",
+    "selectcustomer":"Müşterş Seç",
+    "writethebill":"Hesap Yaz",
+    "service":"HİZMET",
+    "amountofpeople":"Kişi Sayısı",
+    "changeprice":"Fiyat Değiştir",
+    "addproduct":"Ürün Ekle",
+    "addnote":"Adisyon Notu",
+    "changetable":"Masa Değiştir",
+    "username":"Kullanıcı Adı",
+    "takealicence":"Lisans Talep Edin",
+    "close":"KAPAT"
+}

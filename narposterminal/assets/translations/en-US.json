@@ -1,0 +1,19 @@
+{
+    "password":"Password", 
+    "enterbutton":"Enter",
+    "departmant":"Departments",
+    "searchtable":"Search Table..",
+    "closebutton":"CLOSE",
+    "searchproduct":"Search Product..",
+    "selectcustomer":"Select Customer",
+    "writethebill":"Write The Bill",
+    "service":"Service",
+    "amountofpeople":"Amount Of People",
+    "changeprice":"Change Price",
+    "addproduct":"Add Product",
+    "addnote":"Add Note",
+    "changetable":"Change Table",
+    "username":"Username",
+    "takealicence":"Take The Licence",
+    "close":"CLOSE"
+}
