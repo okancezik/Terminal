@@ -5,7 +5,7 @@
     "searchtable":"Masa Ara..",
     "closebutton":"KAPAT",
     "searchproduct":"Ürün Ara..",
-    "selectcustomer":"Müşterş Seç",
+    "selectcustomer":"Müşteri Seç",
     "writethebill":"Hesap Yaz",
     "service":"HİZMET",
     "amountofpeople":"Kişi Sayısı",
@@ -15,5 +15,13 @@
     "changetable":"Masa Değiştir",
     "username":"Kullanıcı Adı",
     "takealicence":"Lisans Talep Edin",
-    "close":"KAPAT"
+    "close":"KAPAT",
+    "namecustomer":"Müşteri İsim",
+    "phonecustomer":"Müşteri Telefon",
+    "addresscustomer":"Müşteri Adres",
+    "searchcustomer":"ARA",
+    "openaccount":"Açık Hesap",
+    "cancel":"İptal"
+
+
 }

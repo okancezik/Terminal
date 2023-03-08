@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:narposterminal/constant/appconstants.dart';
 import 'package:narposterminal/widgets/productsearch.dart';
 
-class MenuDeneme extends StatefulWidget {
+class MenuPage extends StatefulWidget {
   final String title;
-  const MenuDeneme({super.key, required this.title});
+  const MenuPage({super.key, required this.title});
 
   @override
-  State<MenuDeneme> createState() => _MenuDenemeState();
+  State<MenuPage> createState() => _MenuPageState();
 }
 
-class _MenuDenemeState extends State<MenuDeneme> {
+class _MenuPageState extends State<MenuPage> {
   List<String> _mainMenuList = [
     "SADAKAT",
     "BURGERLER",

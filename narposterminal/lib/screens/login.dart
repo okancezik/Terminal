@@ -27,11 +27,16 @@ class _LogInPageState extends State<LogInPage> {
               SizedBox(
                 height: 20,
               ),
-              getTextFormField(),
-              SizedBox(
-                height: 40,
-              ),
-              getElevatedButton()
+              Form(
+                  child: Column(
+                children: [
+                  getPasswordTextFormField(),
+                  SizedBox(
+                    height: 40,
+                  ),
+                  getElevatedButton()
+                ],
+              ))
             ],
           ),
         ),
@@ -39,9 +44,9 @@ class _LogInPageState extends State<LogInPage> {
     );
   }
 
-  Widget getTextFormField() {
+  Widget getPasswordTextFormField() {
     return TextFormField(
-      keyboardType: TextInputType.text,
+      keyboardType: TextInputType.number,
       obscureText: true,
       decoration: InputDecoration(
         hintText: "password".tr(),

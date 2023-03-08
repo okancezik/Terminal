@@ -1,10 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:narposterminal/screens/department.dart';
 import 'package:narposterminal/screens/licence.dart';
-import 'package:narposterminal/screens/login.dart';
-import 'package:narposterminal/screens/tables.dart';
-import 'package:narposterminal/utilities/translation.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +31,7 @@ class MyApp extends StatelessWidget {
       locale: context.locale, //BURASI
       title: 'Flutter Demo',
       theme: ThemeData(brightness: Brightness.light, primarySwatch: Colors.red),
-      home: LicencePage(parentContext: context,),
+      home: LicencePage(),
       debugShowCheckedModeBanner: false,
     );
   }

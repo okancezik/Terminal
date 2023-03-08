@@ -15,5 +15,12 @@
     "changetable":"Change Table",
     "username":"Username",
     "takealicence":"Take The Licence",
-    "close":"CLOSE"
+    "close":"CLOSE",
+    "namecustomer":"Name Customer",
+    "phonecustomer":"Phone Customer",
+    "addresscustomer":"Address Customer",
+    "searchcustomer":"SEARCH",
+    "openaccount":"Open Account",
+    "cancel":"Cancel"
+
 }

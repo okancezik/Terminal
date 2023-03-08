@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:narposterminal/constant/appconstants.dart';
 import 'package:narposterminal/screens/login.dart';
 import 'package:dropdown_button2/dropdown_button2.dart';
-import 'package:narposterminal/utilities/translation.dart';
 import 'package:narposterminal/utilities/translationoperations.dart';
 
 class LicencePage extends StatefulWidget {
-  final BuildContext? parentContext;
-  const LicencePage({super.key, required this.parentContext});
+  const LicencePage({super.key});
 
   @override
   State<LicencePage> createState() => _LicencePageState();
@@ -32,15 +30,20 @@ class _LicencePageState extends State<LicencePage> {
                 children: [Spacer(), getTranslationsButton(context)],
               ),
               AppConstant().logoImage,
-              getUsernameTextFormField(),
-              SizedBox(
-                height: 20,
-              ),
-              getPasswordTextFormField(),
-              SizedBox(
-                height: 40,
-              ),
-              getElevatedButton()
+              Form(
+                  child: Column(
+                children: [
+                  getUsernameTextFormField(),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  getPasswordTextFormField(),
+                  SizedBox(
+                    height: 40,
+                  ),
+                  getElevatedButton()
+                ],
+              ))
             ],
           ),
         ),
@@ -64,7 +67,7 @@ class _LicencePageState extends State<LicencePage> {
       stream: translationHelper.translationstream,
       builder: (context, snapshot) {
         return TextFormField(
-          keyboardType: TextInputType.text,
+          keyboardType: TextInputType.number,
           obscureText: true,
           decoration: InputDecoration(
             hintText: "password".tr(),

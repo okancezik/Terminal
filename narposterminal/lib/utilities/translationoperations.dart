@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:easy_localization/easy_localization.dart';
-import 'package:narposterminal/utilities/translation.dart';
 
 class TranslationHelper {
   final StreamController<String> _controller = StreamController.broadcast();
